@@ -1,0 +1,9 @@
+﻿CREATE TABLE users
+(
+	id INT NOT NULL PRIMARY KEY,
+	name VARCHAR(255),
+	city VARCHAR(255),
+	email VARCHAR(255),
+	phone VARCHAR(10),
+	upd_date DATETIME
+)
