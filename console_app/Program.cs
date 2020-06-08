@@ -10,7 +10,6 @@ using System.Data.SqlClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using console_app.models;
-using System.Data.Entity.Migrations;
 using System.Threading;
 using System.Threading.Tasks.Dataflow;
 using System.Data;
