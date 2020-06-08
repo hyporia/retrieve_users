@@ -1,9 +1,10 @@
-﻿CREATE TABLE users
-(
-	id INT NOT NULL PRIMARY KEY,
-	name VARCHAR(255),
-	city VARCHAR(255),
-	email VARCHAR(255),
-	phone VARCHAR(10),
-	upd_date DATETIME
-)
+﻿CREATE TABLE [dbo].[Users] (
+    [Id]      INT            NOT NULL,
+    [Name]    NVARCHAR (MAX) NULL,
+    [City]    NVARCHAR (MAX) NULL,
+    [Phone]   NVARCHAR (MAX) NULL,
+    [UpdDate] DATETIME       NOT NULL,
+    [Email]   NVARCHAR (255) NULL,
+    CONSTRAINT [PK_dbo.Users] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
